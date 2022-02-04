@@ -1,0 +1,35 @@
+{
+  "name": "highlightjs-teradata-sql",
+  "version": "1.0.0",
+  "description": "Highlight.js language definition for Teradata SQL",
+  "keywords": [
+    "highlight",
+    "syntax",
+    "teradata",
+    "sql"
+  ],
+  "main": "teradata.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minify": "minify teradata.js > dist/teradata.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teradata/highlightjs-teradata-sql.git"
+  },
+  "author": {
+    "name": "Teradata",
+    "email": "developers@teradata.com"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Teradata/highlightjs-teradata-sql/issues"
+  },
+  "homepage": "https://github.com/Teradata/highlightjs-teradata-sql#readme",
+  "dependencies": {
+    "highlightjs": "^9.16.2"
+  },
+  "devDependencies": {
+    "minify": "^8.0.3"
+  }
+}
