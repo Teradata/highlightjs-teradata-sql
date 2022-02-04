@@ -26,8 +26,8 @@ If you're using webpack / rollup / browserify / node:
 
 ```javascript
 var hljs = require('highlightjs');
-var hljsDefineRpmSpecfile = require('highlightjs-teradata-sql');
+var hljsDefineTeradataSql = require('highlightjs-teradata-sql');
 
-hljsDefineRpmSpecfile(hljs);
+hljsDefineTeradataSql(hljs);
 hljs.initHighlightingOnLoad();
 ```
